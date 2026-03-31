@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  /* Pastel light palette */
+  --background: #fefefe;
+  --foreground: #1a1a2e;
+
+  /* Pastel goal colours */
+  --goal-current-bg: #f0f4ff;
+  --goal-completed-bg: #f0fff4;
+  --goal-urgent-bg: #fff0f0;
+  --goal-urgent-border: #ffb3b3;
+  --goal-selected-ring: #a5b4fc;
+
+  /* UI tokens */
+  --primary: #6366f1;
+  --primary-foreground: #ffffff;
+  --secondary: #e0e7ff;
+  --secondary-foreground: #3730a3;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #ede9fe;
+  --accent-foreground: #4c1d95;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #6366f1;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-goal-current-bg: var(--goal-current-bg);
+  --color-goal-completed-bg: var(--goal-completed-bg);
+  --color-goal-urgent-bg: var(--goal-urgent-bg);
+  --color-goal-urgent-border: var(--goal-urgent-border);
+  --color-goal-selected-ring: var(--goal-selected-ring);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
