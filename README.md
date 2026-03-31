@@ -53,3 +53,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 Leaning VIDEO Link : 
 https://www.youtube.com/watch?v=61K-2VRaC6s&list=PL4cUxeGkcC9h9RbDpG8ZModUzwy45tLjb&index=2
+
+For Connect JIRA 
+- Create mcp.json inside .vscode folder and add configration 
+- Install atlassian-mcp-server extension.
+

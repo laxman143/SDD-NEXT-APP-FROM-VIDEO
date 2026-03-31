@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "jira": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-atlassian"],
+      "env": {
+        "JIRA_URL": "https://laxmanprajapati9119.atlassian.net",
+        "JIRA_USERNAME": "laxmanprajapati9119@gmail.com",
+        "JIRA_API_TOKEN": "ATATT3xFfGF03pmOxvpEHgDQpGpu-TJdRC_E0g3cnN1sCzEuvU7IcdIs-aYfexv_B6m20jUoquKygKrqNkf__KpjrV-tIVjsJ67qEfFppw0MCXzkKEsygOjMJw9CjwJLOLRp8RCQNxD0C1p_noHkp6VyIVvc9vO0swWICJ4RUGgXWOcxAR0t3Ik=D58949A2"
+      }
+    }
+  }
+}
